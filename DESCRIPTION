@@ -1,0 +1,24 @@
+Package: searchr
+Title: Combinatorial Fuzzy Matching
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Eau",
+           family = "Leaf",
+           role = c("aut", "cre"),
+           email = "eau.leaf@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Performs data preparation and fuzzy matching by character combinations.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    magrittr,
+    purrr,
+    rlang,
+    stringr,
+    tibble,
+    tidyr
+
